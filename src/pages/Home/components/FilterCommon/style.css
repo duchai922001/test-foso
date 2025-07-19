@@ -1,0 +1,86 @@
+.filter-container h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.filter-container .arrow {
+  transition: transform 0.3s;
+  font-size: 16px;
+}
+
+.filter-container .arrow.up {
+  transform: rotate(0deg);
+}
+
+.filter-container .arrow.down {
+  transform: rotate(180deg);
+}
+
+.ant-checkbox-wrapper {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-checkbox-inner {
+  border-radius: 2px;
+  border-color: #d9d9d9;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border-color: var(--primary-color);
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #000;
+  margin-left: 8px;
+}
+.checkbox-label .text {
+  font-weight: 500;
+}
+.total-text {
+  color: #8c8c8c;
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.input-item:hover {
+  background-color: #f5f5f5;
+}
+
+.input-label {
+  font-size: 14px;
+  color: #000;
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 500;
+}

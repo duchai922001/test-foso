@@ -1,0 +1,82 @@
+.product-filter-bar {
+  background-color: #f5f5f5;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.filter-title {
+  color: #000;
+  font-weight: 500;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.filter-actions {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+.sort-by-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sort-button {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.sort-button:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.sort-button.active-button {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.sort-button.active-button::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 30px solid var(--primary-color);
+  border-left: 30px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 0px solid var(--primary-color);
+  z-index: 2;
+}
+
+.sort-button.active-button .checkmark {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  color: #fff;
+  font-size: 10px;
+  z-index: 3;
+  transform: none;
+}
+.sort-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}

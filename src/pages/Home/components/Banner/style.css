@@ -1,0 +1,87 @@
+.banner-container {
+  background-image: url("@/assets/bg_banner.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  padding: 24px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.banner-content {
+  width: 100%;
+}
+
+.banner-text {
+  max-width: 50%;
+  z-index: 2;
+  padding: 56px 24px;
+}
+
+.banner-badge {
+  position: absolute;
+  background-color: #ffe58f;
+  color: #7a0916;
+  font-weight: 700;
+  padding: 6px 24px;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 14px;
+  top: 24px;
+  left: 0;
+  border-radius: 0px 999px 999px 0;
+}
+
+.banner-title {
+  font-size: 56px;
+  font-weight: 900;
+  -webkit-text-stroke: 3px var(--primary-color);
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.banner-subtext {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ffffff;
+  line-height: 1.5;
+  color: #ffe58f;
+}
+
+.app-name {
+  font-weight: 700;
+}
+
+.note {
+  font-style: italic;
+  color: #c0e7ff;
+  display: inline-block;
+  margin-top: 4px;
+  color: #ffe58f;
+}
+
+.banner-visual {
+  position: relative;
+  width: 540px;
+  height: auto;
+}
+
+.banner-bg {
+  width: 150%;
+  position: absolute;
+  top: -120px;
+  left: -10%;
+  z-index: 1;
+  transform: scaleX(-1) rotate(30deg);
+}
+
+.banner-image {
+  position: absolute;
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
