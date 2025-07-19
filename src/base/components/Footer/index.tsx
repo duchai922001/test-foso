@@ -11,7 +11,7 @@ const Footer = () => {
     taxCode: "0308042428",
     address: "13 Ngõ Thục, Ward 05, District 5, Ho Chi Minh City, Viet Nam",
     phone: "0282 730 7807",
-    hours: "Opening hours: 08:00 - 22:00 from Mon - Fri",
+    hours: "09:00 - 22:00 from Mon - Fri",
     logo: (
       <div style={{ fontSize: "24px", color: "#1890ff" }}>
         <FaMapMarkerAlt />
