@@ -1,14 +1,10 @@
 import { Row, Col, Flex } from "antd";
 import "./style.css";
-import {
-  FaLongArrowAltRight,
-  FaMapMarkedAlt,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
+import { FaMapMarkedAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Container from "../BaseUI/Container";
 import Check from "@/assets/check.png";
 import IconVN from "@/assets/icon-VN.png";
-import { IoIosArrowForward, IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
 const Footer = () => {
   const companyInfo = {
     name: "VIET HUNG AUTO PRODUCTION TRADING JOINT STOCK COMPANY",
@@ -41,23 +37,6 @@ const Footer = () => {
       { label: "FAQs", url: "#" },
     ],
   };
-
-  const appLinks = [
-    {
-      platform: "google-play",
-      label: "Google Play Store",
-      url: "https://play.google.com/store/apps/details?id=your.app.id",
-      image:
-        "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png?hl=vi",
-    },
-    {
-      platform: "apple-store",
-      label: "Apple App Store",
-      url: "https://apps.apple.com/app/your-app-id",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17Dlfop0XoXj0yd3Q_B_io3z4W6koxAOpYg&s",
-    },
-  ];
 
   return (
     <>
